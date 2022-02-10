@@ -1,4 +1,4 @@
-public class Main
+public class MinMaxOfArray
 {
 static class Pair{
 	     int min;
