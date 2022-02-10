@@ -1,6 +1,7 @@
-class Main {
-    public static void main(String[] args){
-        int[] arr = {1,2,3,4,5};
+public class Main
+{
+	public static void main(String[] args) {
+		int[] arr = {1,2,3,4,5};
         //To reverse this array
         int n = arr.length;
         int temp;
@@ -11,8 +12,7 @@ class Main {
         }
 
         for (int i : arr) {
-            System.out.println(i);
+            System.out.print(i +" ");
         }
-        
-    }
+	}
 }
