@@ -1,8 +1,6 @@
 
 package com.easybytes.springsecsection1.DSA;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 
 public class Leetcode997FindTheTownJudge {
     public static void main(String[] args) {
