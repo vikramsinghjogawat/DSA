@@ -1,3 +1,5 @@
+package com.easybytes.springsecsection1.DSA;
+
 public class Main
 {
 	public static void main(String[] args) {

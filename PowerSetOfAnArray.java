@@ -1,3 +1,5 @@
+package com.easybytes.springsecsection1.DSA;
+
 public class PowerSetOfAnArray {
     public static void main(String[] args) {
         List<List<Integer>> allCombinations = new ArrayList<>();

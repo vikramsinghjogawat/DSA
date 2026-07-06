@@ -1,4 +1,6 @@
-class Leetcode1288RemoveCoveredIntervals {
+package com.easybytes.springsecsection1.DSA;
+
+public class Leetcode1288RemoveCoveredIntervals {
     //[[1,2],[3,6],[1,8]] <-edge case
     public int removeCoveredIntervals(int[][] intervals) {
         List<List<Integer>> merged = new ArrayList<>();
