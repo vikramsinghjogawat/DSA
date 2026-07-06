@@ -24,4 +24,18 @@ class Leetcode1288RemoveCoveredIntervals {
         }
         return merged.size();
     }
+    public int optimizedRemoveCoveredIntervals(int[][] intervals) {
+        int count=0;
+        int maxEnd =-1;
+        Arrays.sort(intervals,(a,b)->a[0]!=b[0]?a[0]-b[0]:b[1]-a[1]);
+        //Tracking only maxEnd because it will decide if it covered or not
+        for(int[] interval :intervals){
+            //if covered increment count and set the right wall to be this new wall(end)
+            if(interval[1]>maxEnd){
+            count++;
+            maxEnd=interval[1];
+            }
+        }
+        return count;
+    }
 }
